@@ -1,6 +1,6 @@
-from Flask import flask, jsonify
+from flask import Flask, jsonify
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route('/api/ping')
 def ping():
